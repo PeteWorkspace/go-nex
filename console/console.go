@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SocialDigitalBank/go-sdb/internal/jsre"
+	"github.com/SocialDigitalBank/go-sdb/internal/web3ext"
+	"github.com/SocialDigitalBank/go-sdb/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

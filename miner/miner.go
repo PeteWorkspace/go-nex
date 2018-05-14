@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/SocialDigitalBank/go-sdb/accounts"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/consensus"
+	"github.com/SocialDigitalBank/go-sdb/core"
+	"github.com/SocialDigitalBank/go-sdb/core/state"
+	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/SocialDigitalBank/go-sdb/eth/downloader"
+	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/SocialDigitalBank/go-sdb/event"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/params"
 )
 
 // Backend wraps all methods required for mining.

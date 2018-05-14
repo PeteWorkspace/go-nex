@@ -20,11 +20,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv6"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/rlp"
+	whisper "github.com/SocialDigitalBank/go-sdb/whisper/whisperv6"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

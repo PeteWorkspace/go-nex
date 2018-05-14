@@ -24,12 +24,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/p2p/nat"
+	"github.com/SocialDigitalBank/go-sdb/p2p/netutil"
+	"github.com/SocialDigitalBank/go-sdb/rlp"
 )
 
 const Version = 4

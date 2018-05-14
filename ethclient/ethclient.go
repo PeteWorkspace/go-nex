@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SocialDigitalBank/go-sdb"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
+	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/SocialDigitalBank/go-sdb/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

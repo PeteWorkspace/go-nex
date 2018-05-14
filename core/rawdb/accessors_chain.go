@@ -21,10 +21,10 @@ import (
 	"encoding/binary"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

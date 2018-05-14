@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/SocialDigitalBank/go-sdb/accounts"
+	"github.com/SocialDigitalBank/go-sdb/accounts/keystore"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/core"
+	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/SocialDigitalBank/go-sdb/eth"
+	"github.com/SocialDigitalBank/go-sdb/eth/downloader"
+	"github.com/SocialDigitalBank/go-sdb/ethclient"
+	"github.com/SocialDigitalBank/go-sdb/ethstats"
+	"github.com/SocialDigitalBank/go-sdb/les"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/node"
+	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
+	"github.com/SocialDigitalBank/go-sdb/p2p/discv5"
+	"github.com/SocialDigitalBank/go-sdb/p2p/nat"
+	"github.com/SocialDigitalBank/go-sdb/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -215,7 +215,7 @@ type faucet struct {
 func newFaucet(genesis *core.Genesis, port int, enodes []*discv5.Node, network uint64, stats string, ks *keystore.KeyStore, index []byte) (*faucet, error) {
 	// Assemble the raw devp2p protocol stack
 	stack, err := node.New(&node.Config{
-		Name:    "geth",
+		Name:    "gsdb",
 		Version: params.Version,
 		DataDir: filepath.Join(os.Getenv("HOME"), ".faucet"),
 		P2P: p2p.Config{

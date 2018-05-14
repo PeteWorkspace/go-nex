@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/SocialDigitalBank/go-sdb/crypto/ecies"
+	"github.com/SocialDigitalBank/go-sdb/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

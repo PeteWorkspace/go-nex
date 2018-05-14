@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
+	"github.com/SocialDigitalBank/go-sdb/consensus/ethash"
+	"github.com/SocialDigitalBank/go-sdb/core"
+	"github.com/SocialDigitalBank/go-sdb/eth/downloader"
+	"github.com/SocialDigitalBank/go-sdb/eth/gasprice"
+	"github.com/SocialDigitalBank/go-sdb/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

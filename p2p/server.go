@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/common/mclock"
+	"github.com/SocialDigitalBank/go-sdb/event"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
+	"github.com/SocialDigitalBank/go-sdb/p2p/discv5"
+	"github.com/SocialDigitalBank/go-sdb/p2p/nat"
+	"github.com/SocialDigitalBank/go-sdb/p2p/netutil"
 )
 
 const (

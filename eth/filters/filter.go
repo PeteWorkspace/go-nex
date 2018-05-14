@@ -20,13 +20,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/core"
+	"github.com/SocialDigitalBank/go-sdb/core/bloombits"
+	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/SocialDigitalBank/go-sdb/event"
+	"github.com/SocialDigitalBank/go-sdb/rpc"
 )
 
 type Backend interface {

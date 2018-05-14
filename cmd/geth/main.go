@@ -25,28 +25,28 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/SocialDigitalBank/go-sdb/accounts"
+	"github.com/SocialDigitalBank/go-sdb/accounts/keystore"
+	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
+	"github.com/SocialDigitalBank/go-sdb/console"
+	"github.com/SocialDigitalBank/go-sdb/eth"
+	"github.com/SocialDigitalBank/go-sdb/ethclient"
+	"github.com/SocialDigitalBank/go-sdb/internal/debug"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/metrics"
+	"github.com/SocialDigitalBank/go-sdb/node"
 	"gopkg.in/urfave/cli.v1"
 )
 
 const (
-	clientIdentifier = "geth" // Client identifier to advertise over the network
+	clientIdentifier = "gsdb" // Client identifier to advertise over the network
 )
 
 var (
 	// Git SHA1 commit hash of the release (set via linker flags)
 	gitCommit = ""
 	// The app that holds all commands and flags.
-	app = utils.NewApp(gitCommit, "the go-ethereum command line interface")
+	app = utils.NewApp(gitCommit, "the go-sdb command line interface")
 	// flags that configure the node
 	nodeFlags = []cli.Flag{
 		utils.IdentityFlag,

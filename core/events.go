@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

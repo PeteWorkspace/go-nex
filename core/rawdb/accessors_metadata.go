@@ -19,10 +19,10 @@ package rawdb
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/SocialDigitalBank/go-sdb/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

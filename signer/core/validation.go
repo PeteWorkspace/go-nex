@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/SocialDigitalBank/go-sdb/common"
 )
 
 // The validation package contains validation checks for transactions

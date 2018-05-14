@@ -58,14 +58,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/build"
+	"github.com/SocialDigitalBank/go-sdb/internal/build"
 )
 
 var (
 	// Files that end up in the geth*.zip archive.
 	gethArchiveFiles = []string{
 		"COPYING",
-		executablePath("geth"),
+		executablePath("gsdb"),
 	}
 
 	// Files that end up in the geth-alltools*.zip archive.
@@ -74,7 +74,7 @@ var (
 		executablePath("abigen"),
 		executablePath("bootnode"),
 		executablePath("evm"),
-		executablePath("geth"),
+		executablePath("gsdb"),
 		executablePath("puppeth"),
 		executablePath("rlpdump"),
 		executablePath("swarm"),
@@ -96,8 +96,8 @@ var (
 			Description: "Developer utility version of the EVM (Ethereum Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode.",
 		},
 		{
-			Name:        "geth",
-			Description: "Ethereum CLI client.",
+			Name:        "gsdb",
+			Description: "SocialDigitalBank CLI client.",
 		},
 		{
 			Name:        "puppeth",
@@ -371,8 +371,8 @@ func doArchive(cmdline []string) {
 	var (
 		env      = build.Env()
 		base     = archiveBasename(*arch, env)
-		geth     = "geth-" + base + ext
-		alltools = "geth-alltools-" + base + ext
+		geth     = "gsdb-" + base + ext
+		alltools = "gsdb-alltools-" + base + ext
 	)
 	maybeSkipArchive(env)
 	if err := build.WriteArchive(geth, gethArchiveFiles); err != nil {
@@ -508,7 +508,7 @@ func makeWorkdir(wdflag string) string {
 	if wdflag != "" {
 		err = os.MkdirAll(wdflag, 0744)
 	} else {
-		wdflag, err = ioutil.TempDir("", "geth-build-")
+		wdflag, err = ioutil.TempDir("", "gsdb-build-")
 	}
 	if err != nil {
 		log.Fatal(err)
@@ -664,7 +664,7 @@ func doWindowsInstaller(cmdline []string) {
 			continue
 		}
 		allTools = append(allTools, filepath.Base(file))
-		if filepath.Base(file) == "geth.exe" {
+		if filepath.Base(file) == "gsdb.exe" {
 			gethTool = file
 		} else {
 			devTools = append(devTools, file)
@@ -675,10 +675,10 @@ func doWindowsInstaller(cmdline []string) {
 	// first section contains the geth binary, second section holds the dev tools.
 	templateData := map[string]interface{}{
 		"License":  "COPYING",
-		"Geth":     gethTool,
+		"Gsdb":     gethTool,
 		"DevTools": devTools,
 	}
-	build.Render("build/nsis.geth.nsi", filepath.Join(*workdir, "geth.nsi"), 0644, nil)
+	build.Render("build/nsis.gsdb.nsi", filepath.Join(*workdir, "gsdb.nsi"), 0644, nil)
 	build.Render("build/nsis.install.nsh", filepath.Join(*workdir, "install.nsh"), 0644, templateData)
 	build.Render("build/nsis.uninstall.nsh", filepath.Join(*workdir, "uninstall.nsh"), 0644, allTools)
 	build.Render("build/nsis.pathupdate.nsh", filepath.Join(*workdir, "PathUpdate.nsh"), 0644, nil)
@@ -693,14 +693,14 @@ func doWindowsInstaller(cmdline []string) {
 	if env.Commit != "" {
 		version[2] += "-" + env.Commit[:8]
 	}
-	installer, _ := filepath.Abs("geth-" + archiveBasename(*arch, env) + ".exe")
+	installer, _ := filepath.Abs("gsdb-" + archiveBasename(*arch, env) + ".exe")
 	build.MustRunCommand("makensis.exe",
 		"/DOUTPUTFILE="+installer,
 		"/DMAJORVERSION="+version[0],
 		"/DMINORVERSION="+version[1],
 		"/DBUILDVERSION="+version[2],
 		"/DARCH="+*arch,
-		filepath.Join(*workdir, "geth.nsi"),
+		filepath.Join(*workdir, "gsdb.nsi"),
 	)
 
 	// Sign and publish installer.
@@ -735,7 +735,7 @@ func doAndroidArchive(cmdline []string) {
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
-		os.Rename("geth.aar", filepath.Join(GOBIN, "geth.aar"))
+		os.Rename("gsdb.aar", filepath.Join(GOBIN, "gsdb.aar"))
 		return
 	}
 	meta := newMavenMetadata(env)
@@ -745,8 +745,8 @@ func doAndroidArchive(cmdline []string) {
 	maybeSkipArchive(env)
 
 	// Sign and upload the archive to Azure
-	archive := "geth-" + archiveBasename("android", env) + ".aar"
-	os.Rename("geth.aar", archive)
+	archive := "gsdb-" + archiveBasename("android", env) + ".aar"
+	os.Rename("gsdb.aar", archive)
 
 	if err := archiveUpload(archive, *upload, *signer); err != nil {
 		log.Fatal(err)
@@ -836,7 +836,7 @@ func newMavenMetadata(env build.Environment) mavenMetadata {
 	}
 	return mavenMetadata{
 		Version:      version,
-		Package:      "geth-" + version,
+		Package:      "gsdb-" + version,
 		Develop:      isUnstableBuild(env),
 		Contributors: contribs,
 	}
@@ -857,7 +857,7 @@ func doXCodeFramework(cmdline []string) {
 	// Build the iOS XCode framework
 	build.MustRun(goTool("get", "golang.org/x/mobile/cmd/gomobile", "golang.org/x/mobile/cmd/gobind"))
 	build.MustRun(gomobileTool("init"))
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "--tags", "ios", "-v", "github.com/ethereum/go-ethereum/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "--tags", "ios", "-v", "github.com/SocialDigitalBank/go-sdb/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards
@@ -865,7 +865,7 @@ func doXCodeFramework(cmdline []string) {
 		build.MustRun(bind)
 		return
 	}
-	archive := "geth-" + archiveBasename("ios", env)
+	archive := "gsdb-" + archiveBasename("ios", env)
 	if err := os.Mkdir(archive, os.ModePerm); err != nil {
 		log.Fatal(err)
 	}
@@ -883,8 +883,8 @@ func doXCodeFramework(cmdline []string) {
 	// Prepare and upload a PodSpec to CocoaPods
 	if *deploy != "" {
 		meta := newPodMetadata(env, archive)
-		build.Render("build/pod.podspec", "Geth.podspec", 0755, meta)
-		build.MustRunCommand("pod", *deploy, "push", "Geth.podspec", "--allow-warnings", "--verbose")
+		build.Render("build/pod.podspec", "Gsdb.podspec", 0755, meta)
+		build.MustRunCommand("pod", *deploy, "push", "Gsdb.podspec", "--allow-warnings", "--verbose")
 	}
 }
 

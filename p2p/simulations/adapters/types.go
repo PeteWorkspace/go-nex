@@ -25,11 +25,11 @@ import (
 	"os"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/SocialDigitalBank/go-sdb/node"
+	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
+	"github.com/SocialDigitalBank/go-sdb/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

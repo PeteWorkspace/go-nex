@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/ethereum/go-ethereum/swarm/api"
+	bzzapi "github.com/SocialDigitalBank/go-sdb/swarm/api"
 )
 
 var (

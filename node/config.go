@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/SocialDigitalBank/go-sdb/accounts"
+	"github.com/SocialDigitalBank/go-sdb/accounts/keystore"
+	"github.com/SocialDigitalBank/go-sdb/accounts/usbwallet"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
 )
 
 const (
@@ -228,8 +228,8 @@ func DefaultWSEndpoint() string {
 func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
-	if name == "geth" || name == "geth-testnet" {
-		name = "Geth"
+	if name == "gsdb" || name == "gsdb-testnet" {
+		name = "Gsdb"
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent
@@ -272,9 +272,9 @@ func (c *Config) resolvePath(path string) string {
 	}
 	// Backwards-compatibility: ensure that data directory files created
 	// by geth 1.4 are used if they exist.
-	if c.name() == "geth" && isOldGethResource[path] {
+	if c.name() == "gsdb" && isOldGethResource[path] {
 		oldpath := ""
-		if c.Name == "geth" {
+		if c.Name == "gsdb" {
 			oldpath = filepath.Join(c.DataDir, path)
 		}
 		if oldpath != "" && common.FileExist(oldpath) {

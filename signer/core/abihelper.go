@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/SocialDigitalBank/go-sdb/accounts/abi"
+	"github.com/SocialDigitalBank/go-sdb/common"
 
 	"bytes"
 	"os"

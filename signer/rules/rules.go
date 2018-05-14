@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/SocialDigitalBank/go-sdb/internal/ethapi"
+	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/SocialDigitalBank/go-sdb/signer/core"
+	"github.com/SocialDigitalBank/go-sdb/signer/rules/deps"
+	"github.com/SocialDigitalBank/go-sdb/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 
