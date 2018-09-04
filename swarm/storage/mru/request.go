@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/common/hexutil"
+	"github.com/SECoin/go-sec/swarm/storage"
 )
 
 // updateRequestJSON represents a JSON-serialized UpdateRequest

@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/SECoin/go-sec/swarm/log"
 )
 
 // SwAP Swarm Accounting Protocol with

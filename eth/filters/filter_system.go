@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/SECoin/go-sec"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/core"
+	"github.com/SECoin/go-sec/core/rawdb"
+	"github.com/SECoin/go-sec/core/types"
+	"github.com/SECoin/go-sec/event"
+	"github.com/SECoin/go-sec/log"
+	"github.com/SECoin/go-sec/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

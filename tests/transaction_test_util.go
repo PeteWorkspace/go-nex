@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/common/hexutil"
+	"github.com/SECoin/go-sec/common/math"
+	"github.com/SECoin/go-sec/core/types"
+	"github.com/SECoin/go-sec/params"
+	"github.com/SECoin/go-sec/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

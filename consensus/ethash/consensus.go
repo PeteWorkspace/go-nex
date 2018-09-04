@@ -25,15 +25,15 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/common/math"
+	"github.com/SECoin/go-sec/consensus"
+	"github.com/SECoin/go-sec/consensus/misc"
+	"github.com/SECoin/go-sec/core/state"
+	"github.com/SECoin/go-sec/core/types"
+	"github.com/SECoin/go-sec/crypto/sha3"
+	"github.com/SECoin/go-sec/params"
+	"github.com/SECoin/go-sec/rlp"
 )
 
 // Ethash proof-of-work protocol constants.

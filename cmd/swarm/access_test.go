@@ -33,11 +33,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
+	"github.com/SECoin/go-sec/crypto"
+	"github.com/SECoin/go-sec/crypto/sha3"
+	"github.com/SECoin/go-sec/log"
+	"github.com/SECoin/go-sec/swarm/api"
+	swarm "github.com/SECoin/go-sec/swarm/api/client"
 )
 
 // TestAccessPassword tests for the correct creation of an ACT manifest protected by a password.

@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/crypto"
+	"github.com/SECoin/go-sec/ethdb"
 )
 
 func init() {

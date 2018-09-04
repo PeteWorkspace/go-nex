@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/p2p"
+	"github.com/SECoin/go-sec/p2p/discover"
+	"github.com/SECoin/go-sec/swarm/log"
 )
 
 type protoCtrl struct {

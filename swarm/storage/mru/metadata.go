@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"hash"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/swarm/storage"
 )
 
 // ResourceMetadata encapsulates the immutable information about a mutable resource :)

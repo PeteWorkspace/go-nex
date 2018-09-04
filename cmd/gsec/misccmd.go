@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/SECoin/go-sec/cmd/utils"
+	"github.com/SECoin/go-sec/consensus/ethash"
+	"github.com/SECoin/go-sec/eth"
+	"github.com/SECoin/go-sec/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

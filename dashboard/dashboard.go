@@ -35,11 +35,11 @@ import (
 	"io"
 
 	"github.com/elastic/gosigar"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SECoin/go-sec/log"
+	"github.com/SECoin/go-sec/metrics"
+	"github.com/SECoin/go-sec/p2p"
+	"github.com/SECoin/go-sec/params"
+	"github.com/SECoin/go-sec/rpc"
 	"github.com/mohae/deepcopy"
 	"golang.org/x/net/websocket"
 )

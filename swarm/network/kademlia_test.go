@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/pot"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/log"
+	"github.com/SECoin/go-sec/swarm/pot"
 )
 
 func init() {

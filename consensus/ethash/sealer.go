@@ -29,10 +29,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/SECoin/go-sec/common"
+	"github.com/SECoin/go-sec/consensus"
+	"github.com/SECoin/go-sec/core/types"
+	"github.com/SECoin/go-sec/log"
 )
 
 const (
