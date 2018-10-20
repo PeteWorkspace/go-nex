@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

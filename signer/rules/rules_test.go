@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/internal/ethapi"
-	"github.com/SocialDigitalBank/go-sdb/signer/core"
-	"github.com/SocialDigitalBank/go-sdb/signer/storage"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/signer/core"
+	"github.com/PeteWorkspace/go-nex/signer/storage"
 )
 
 const JS = `

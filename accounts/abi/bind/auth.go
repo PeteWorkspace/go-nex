@@ -22,10 +22,10 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts/keystore"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 // NewTransactor is a utility method to easily create a transaction signer from

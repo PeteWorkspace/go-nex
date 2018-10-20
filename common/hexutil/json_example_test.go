@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
 )
 
 type MyType [5]byte

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

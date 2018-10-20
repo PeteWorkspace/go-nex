@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
 	"github.com/mattn/go-colorable"
 )
 

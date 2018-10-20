@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/SocialDigitalBank/go-sdb/common"
+import "github.com/PeteWorkspace/go-nex/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

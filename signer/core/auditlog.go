@@ -21,11 +21,11 @@ import (
 
 	"encoding/json"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
-	"github.com/SocialDigitalBank/go-sdb/internal/ethapi"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 type AuditLogger struct {

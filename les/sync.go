@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/core/rawdb"
-	"github.com/SocialDigitalBank/go-sdb/eth/downloader"
-	"github.com/SocialDigitalBank/go-sdb/light"
+	"github.com/PeteWorkspace/go-nex/core/rawdb"
+	"github.com/PeteWorkspace/go-nex/eth/downloader"
+	"github.com/PeteWorkspace/go-nex/light"
 )
 
 // syncer is responsible for periodically synchronising with the network, both

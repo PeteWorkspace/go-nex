@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/internal/debug"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

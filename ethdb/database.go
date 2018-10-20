@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/metrics"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

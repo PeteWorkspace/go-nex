@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/swarm/api"
-	httpapi "github.com/SocialDigitalBank/go-sdb/swarm/api/http"
-	"github.com/SocialDigitalBank/go-sdb/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
+	httpapi "github.com/PeteWorkspace/go-nex/swarm/api/http"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

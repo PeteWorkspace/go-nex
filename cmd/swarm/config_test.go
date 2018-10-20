@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/rpc"
-	"github.com/SocialDigitalBank/go-sdb/swarm"
-	"github.com/SocialDigitalBank/go-sdb/swarm/api"
+	"github.com/PeteWorkspace/go-nex/rpc"
+	"github.com/PeteWorkspace/go-nex/swarm"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

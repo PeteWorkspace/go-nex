@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/evm/internal/compiler"
+	"github.com/PeteWorkspace/go-nex/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

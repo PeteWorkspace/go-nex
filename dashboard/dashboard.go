@@ -33,11 +33,11 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/metrics"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	"github.com/SocialDigitalBank/go-sdb/params"
-	"github.com/SocialDigitalBank/go-sdb/rpc"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"golang.org/x/net/websocket"
 )
 

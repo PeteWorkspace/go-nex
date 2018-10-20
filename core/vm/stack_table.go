@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

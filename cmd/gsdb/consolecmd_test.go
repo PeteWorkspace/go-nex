@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 const (

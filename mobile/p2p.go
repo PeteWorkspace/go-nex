@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

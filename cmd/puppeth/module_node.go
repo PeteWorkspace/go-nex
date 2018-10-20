@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

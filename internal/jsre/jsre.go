@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/internal/jsre/deps"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

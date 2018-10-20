@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

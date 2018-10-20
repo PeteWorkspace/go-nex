@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/p2p/netutil"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/netutil"
 )
 
 const (

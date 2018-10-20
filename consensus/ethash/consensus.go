@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/math"
-	"github.com/SocialDigitalBank/go-sdb/consensus"
-	"github.com/SocialDigitalBank/go-sdb/consensus/misc"
-	"github.com/SocialDigitalBank/go-sdb/core/state"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/consensus/misc"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
 	set "gopkg.in/fatih/set.v0"
 )
 

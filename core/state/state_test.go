@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 	checker "gopkg.in/check.v1"
 )
 

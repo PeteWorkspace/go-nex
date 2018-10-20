@@ -34,7 +34,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p"
 )
 
 // error codes used by this  protocol scheme

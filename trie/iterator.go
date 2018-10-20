@@ -21,7 +21,7 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

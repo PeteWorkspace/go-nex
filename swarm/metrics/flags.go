@@ -19,10 +19,10 @@ package metrics
 import (
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	gethmetrics "github.com/SocialDigitalBank/go-sdb/metrics"
-	"github.com/SocialDigitalBank/go-sdb/metrics/influxdb"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/log"
+	gethmetrics "github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics/influxdb"
 	"gopkg.in/urfave/cli.v1"
 )
 

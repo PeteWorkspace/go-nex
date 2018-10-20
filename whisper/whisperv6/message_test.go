@@ -23,9 +23,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

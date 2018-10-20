@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/mclock"
-	"github.com/SocialDigitalBank/go-sdb/event"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discv5"
-	"github.com/SocialDigitalBank/go-sdb/p2p/nat"
-	"github.com/SocialDigitalBank/go-sdb/p2p/netutil"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discv5"
+	"github.com/PeteWorkspace/go-nex/p2p/nat"
+	"github.com/PeteWorkspace/go-nex/p2p/netutil"
 )
 
 const (

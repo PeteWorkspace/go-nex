@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts/abi"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/core/state"
-	"github.com/SocialDigitalBank/go-sdb/core/vm"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

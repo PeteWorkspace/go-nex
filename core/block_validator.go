@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/consensus"
-	"github.com/SocialDigitalBank/go-sdb/core/state"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

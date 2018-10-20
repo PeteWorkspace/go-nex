@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/event"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
 )
 
 var dialBanTimeout = 200 * time.Millisecond

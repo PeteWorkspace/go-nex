@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/SocialDigitalBank/go-sdb/metrics"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p"
 )
 
 var (

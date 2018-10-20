@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/math"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/core/vm"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

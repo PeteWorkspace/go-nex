@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common/math"
-	"github.com/SocialDigitalBank/go-sdb/crypto/randentropy"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/crypto/randentropy"
 )
 
 const TestCount = 1000

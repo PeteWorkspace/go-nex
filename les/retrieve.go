@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common/mclock"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
 )
 
 var (

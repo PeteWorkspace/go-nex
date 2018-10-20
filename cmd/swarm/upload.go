@@ -30,8 +30,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	swarm "github.com/SocialDigitalBank/go-sdb/swarm/api/client"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	swarm "github.com/PeteWorkspace/go-nex/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

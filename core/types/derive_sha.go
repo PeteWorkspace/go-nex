@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
-	"github.com/SocialDigitalBank/go-sdb/trie"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/trie"
 )
 
 type DerivableList interface {

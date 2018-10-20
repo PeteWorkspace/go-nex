@@ -58,7 +58,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/internal/build"
+	"github.com/PeteWorkspace/go-nex/internal/build"
 )
 
 var (
@@ -97,7 +97,7 @@ var (
 		},
 		{
 			Name:        "gsdb",
-			Description: "SocialDigitalBank CLI client.",
+			Description: "PeteWorkspace CLI client.",
 		},
 		{
 			Name:        "puppeth",
@@ -857,7 +857,7 @@ func doXCodeFramework(cmdline []string) {
 	// Build the iOS XCode framework
 	build.MustRun(goTool("get", "golang.org/x/mobile/cmd/gomobile", "golang.org/x/mobile/cmd/gobind"))
 	build.MustRun(gomobileTool("init"))
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "--tags", "ios", "-v", "github.com/SocialDigitalBank/go-sdb/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "--tags", "ios", "-v", "github.com/PeteWorkspace/go-nex/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

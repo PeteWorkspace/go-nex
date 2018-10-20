@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto/sha3"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 type hasher struct {

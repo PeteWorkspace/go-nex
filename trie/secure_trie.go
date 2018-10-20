@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

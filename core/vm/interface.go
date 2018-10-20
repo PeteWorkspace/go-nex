@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

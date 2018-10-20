@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common/mclock"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 const (

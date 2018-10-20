@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/core/asm"
+	"github.com/PeteWorkspace/go-nex/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

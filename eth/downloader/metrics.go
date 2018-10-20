@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/SocialDigitalBank/go-sdb/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 var (

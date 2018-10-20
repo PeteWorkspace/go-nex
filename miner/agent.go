@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/SocialDigitalBank/go-sdb/consensus"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 type CpuAgent struct {

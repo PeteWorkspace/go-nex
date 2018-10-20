@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

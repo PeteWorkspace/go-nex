@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/internal/ethapi"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/signer/core"
-	"github.com/SocialDigitalBank/go-sdb/signer/rules/deps"
-	"github.com/SocialDigitalBank/go-sdb/signer/storage"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/signer/core"
+	"github.com/PeteWorkspace/go-nex/signer/rules/deps"
+	"github.com/PeteWorkspace/go-nex/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

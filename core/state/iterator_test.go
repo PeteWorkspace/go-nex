@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

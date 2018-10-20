@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 const (

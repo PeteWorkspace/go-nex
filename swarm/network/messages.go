@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/contracts/chequebook"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/swarm/network/kademlia"
-	"github.com/SocialDigitalBank/go-sdb/swarm/services/swap"
-	"github.com/SocialDigitalBank/go-sdb/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/contracts/chequebook"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/swarm/network/kademlia"
+	"github.com/PeteWorkspace/go-nex/swarm/services/swap"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 /*

@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
-	"github.com/SocialDigitalBank/go-sdb/consensus/ethash"
-	"github.com/SocialDigitalBank/go-sdb/core"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // cppEthereumGenesisSpec represents the genesis specification format used by the

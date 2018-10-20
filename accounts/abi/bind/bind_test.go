@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 	"golang.org/x/tools/imports"
 )
 

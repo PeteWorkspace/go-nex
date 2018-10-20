@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 func TestPack(t *testing.T) {

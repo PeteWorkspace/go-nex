@@ -35,9 +35,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/crypto/sha3"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

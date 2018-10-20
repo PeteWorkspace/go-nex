@@ -28,7 +28,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
 	"golang.org/x/tools/imports"
 )
 

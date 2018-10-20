@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/crypto/ecies"
-	"github.com/SocialDigitalBank/go-sdb/crypto/secp256k1"
-	"github.com/SocialDigitalBank/go-sdb/crypto/sha3"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/ecies"
+	"github.com/PeteWorkspace/go-nex/crypto/secp256k1"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/rlp"
 	"github.com/golang/snappy"
 )
 

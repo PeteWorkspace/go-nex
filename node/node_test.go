@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	"github.com/SocialDigitalBank/go-sdb/rpc"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 var (

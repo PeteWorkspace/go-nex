@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts"
-	"github.com/SocialDigitalBank/go-sdb/accounts/keystore"
-	"github.com/SocialDigitalBank/go-sdb/accounts/usbwallet"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/accounts/usbwallet"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 const (

@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 var (

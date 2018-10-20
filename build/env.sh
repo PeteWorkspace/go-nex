@@ -10,11 +10,11 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/SocialDigitalBank"
-if [ ! -L "$ethdir/go-sdb" ]; then
+ethdir="$workspace/src/github.com/PeteWorkspace"
+if [ ! -L "$ethdir/go-nex" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. go-sdb
+    ln -s ../../../../../. go-nex
     cd "$root"
 fi
 
@@ -23,8 +23,8 @@ GOPATH="$workspace"
 export GOPATH
 
 # Run the command inside the workspace.
-cd "$ethdir/go-sdb"
-PWD="$ethdir/go-sdb"
+cd "$ethdir/go-nex"
+PWD="$ethdir/go-nex"
 
 # Launch the arguments with the configured environment.
 exec "$@"

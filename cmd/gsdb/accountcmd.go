@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts"
-	"github.com/SocialDigitalBank/go-sdb/accounts/keystore"
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/console"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/console"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

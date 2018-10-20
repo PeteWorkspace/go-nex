@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

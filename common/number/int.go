@@ -19,7 +19,7 @@ package number
 import (
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 var tt256 = new(big.Int).Lsh(big.NewInt(1), 256)

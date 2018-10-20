@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/SocialDigitalBank/go-sdb/eth/tracers/internal/tracers"
+	"github.com/PeteWorkspace/go-nex/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

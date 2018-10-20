@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

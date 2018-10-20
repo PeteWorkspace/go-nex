@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/core/vm"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 func TestState(t *testing.T) {

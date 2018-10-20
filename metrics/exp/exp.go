@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 type exp struct {

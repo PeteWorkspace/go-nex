@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/bmt"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/bmt"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
 )
 
 type Hasher func() hash.Hash

@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // Entry is implemented by known node record entry types.

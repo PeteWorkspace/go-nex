@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/consensus/ethash"
-	"github.com/SocialDigitalBank/go-sdb/eth"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

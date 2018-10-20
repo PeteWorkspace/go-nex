@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/event"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

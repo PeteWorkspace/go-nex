@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

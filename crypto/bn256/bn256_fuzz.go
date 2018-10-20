@@ -22,8 +22,8 @@ import (
 	"bytes"
 	"math/big"
 
-	cloudflare "github.com/SocialDigitalBank/go-sdb/crypto/bn256/cloudflare"
-	google "github.com/SocialDigitalBank/go-sdb/crypto/bn256/google"
+	cloudflare "github.com/PeteWorkspace/go-nex/crypto/bn256/cloudflare"
+	google "github.com/PeteWorkspace/go-nex/crypto/bn256/google"
 )
 
 // FuzzAdd fuzzez bn256 addition between the Google and Cloudflare libraries.

@@ -19,7 +19,7 @@ package storage
 import (
 	"encoding/binary"
 
-	"github.com/SocialDigitalBank/go-sdb/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 //metrics variables

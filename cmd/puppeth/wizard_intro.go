@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

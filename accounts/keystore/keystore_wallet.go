@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/SocialDigitalBank/go-sdb"
-	"github.com/SocialDigitalBank/go-sdb/accounts"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
+	ethereum "github.com/PeteWorkspace/go-nex"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

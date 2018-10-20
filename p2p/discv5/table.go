@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 const (

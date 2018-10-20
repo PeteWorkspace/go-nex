@@ -19,8 +19,8 @@
 package whisperv5
 
 import (
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

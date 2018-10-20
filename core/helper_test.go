@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
-	"github.com/SocialDigitalBank/go-sdb/event"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 // Implement our EthTest Manager

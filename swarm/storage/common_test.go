@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 type brokenLimitedReader struct {

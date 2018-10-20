@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/contracts/ens"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/node"
-	"github.com/SocialDigitalBank/go-sdb/swarm/network"
-	"github.com/SocialDigitalBank/go-sdb/swarm/services/swap"
-	"github.com/SocialDigitalBank/go-sdb/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/contracts/ens"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/swarm/network"
+	"github.com/PeteWorkspace/go-nex/swarm/services/swap"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 const (

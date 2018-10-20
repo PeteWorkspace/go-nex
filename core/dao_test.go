@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/consensus/ethash"
-	"github.com/SocialDigitalBank/go-sdb/core/vm"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

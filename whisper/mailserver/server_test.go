@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	whisper "github.com/SocialDigitalBank/go-sdb/whisper/whisperv6"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	whisper "github.com/PeteWorkspace/go-nex/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

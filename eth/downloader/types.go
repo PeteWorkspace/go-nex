@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

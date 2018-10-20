@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // Tests that ethash works correctly in test mode.

@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

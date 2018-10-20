@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

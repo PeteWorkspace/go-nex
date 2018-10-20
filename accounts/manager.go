@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/event"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 // Manager is an overarching account manager that can communicate with various

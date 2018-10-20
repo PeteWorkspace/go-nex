@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 func TestTransaction(t *testing.T) {

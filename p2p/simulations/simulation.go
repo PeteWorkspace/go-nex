@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 // Simulation provides a framework for running actions in a simulated network

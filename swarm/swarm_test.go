@@ -19,7 +19,7 @@ package swarm
 import (
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 func TestParseEnsAPIAddress(t *testing.T) {

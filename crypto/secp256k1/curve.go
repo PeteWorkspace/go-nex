@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/SocialDigitalBank/go-sdb/common/math"
+	"github.com/PeteWorkspace/go-nex/common/math"
 )
 
 /*

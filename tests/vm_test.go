@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/core/vm"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 func TestVM(t *testing.T) {

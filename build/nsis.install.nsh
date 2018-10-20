@@ -29,9 +29,9 @@ Section "Gsdb" GETH_IDX
   SimpleFC::AdvRemoveRule "Gsdb UDP discovery (UDP:30303)"
 
   # Firewall - add rules
-  SimpleFC::AdvAddRule "Gsdb incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$INSTDIR\gsdb.exe" "" "" "SocialDigitalBank" 30303 "" "" ""
-  SimpleFC::AdvAddRule "Gsdb outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\gsdb.exe" "" "" "SocialDigitalBank" "" 30303 "" ""
-  SimpleFC::AdvAddRule "Gsdb UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\gsdb.exe" "" "" "SocialDigitalBank" "" 30303 "" ""
+  SimpleFC::AdvAddRule "Gsdb incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$INSTDIR\gsdb.exe" "" "" "PeteWorkspace" 30303 "" "" ""
+  SimpleFC::AdvAddRule "Gsdb outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\gsdb.exe" "" "" "PeteWorkspace" "" 30303 "" ""
+  SimpleFC::AdvAddRule "Gsdb UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\gsdb.exe" "" "" "PeteWorkspace" "" 30303 "" ""
 
   # Set default IPC endpoint (https://github.com/ethereum/EIPs/issues/147)
   ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\gsdb.ipc"

@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 type account struct {

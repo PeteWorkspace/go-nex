@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discv5"
-	"github.com/SocialDigitalBank/go-sdb/p2p/nat"
-	"github.com/SocialDigitalBank/go-sdb/p2p/netutil"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discv5"
+	"github.com/PeteWorkspace/go-nex/p2p/nat"
+	"github.com/PeteWorkspace/go-nex/p2p/netutil"
 )
 
 func main() {

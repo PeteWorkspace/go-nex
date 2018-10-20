@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb"
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
+	"github.com/PeteWorkspace/go-nex"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 var (

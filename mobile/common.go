@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

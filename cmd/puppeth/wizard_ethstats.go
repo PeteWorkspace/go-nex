@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

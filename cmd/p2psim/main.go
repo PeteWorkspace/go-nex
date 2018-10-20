@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
-	"github.com/SocialDigitalBank/go-sdb/p2p/simulations"
-	"github.com/SocialDigitalBank/go-sdb/p2p/simulations/adapters"
-	"github.com/SocialDigitalBank/go-sdb/rpc"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

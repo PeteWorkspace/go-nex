@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	"github.com/SocialDigitalBank/go-sdb/rpc"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

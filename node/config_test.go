@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
 )
 
 /*

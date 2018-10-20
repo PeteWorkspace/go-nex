@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

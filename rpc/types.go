@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

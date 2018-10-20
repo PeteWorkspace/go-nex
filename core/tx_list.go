@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/core/types"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

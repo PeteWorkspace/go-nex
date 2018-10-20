@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

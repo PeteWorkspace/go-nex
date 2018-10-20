@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 func TestMocker(t *testing.T) {

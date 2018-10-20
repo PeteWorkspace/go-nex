@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 /*

@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/internal/build"
+	"github.com/PeteWorkspace/go-nex/internal/build"
 )
 
 // androidTestClass is a Java class to do some lightweight tests against the Android

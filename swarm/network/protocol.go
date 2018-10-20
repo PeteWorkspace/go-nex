@@ -37,13 +37,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/contracts/chequebook"
-	"github.com/SocialDigitalBank/go-sdb/log"
-	"github.com/SocialDigitalBank/go-sdb/metrics"
-	"github.com/SocialDigitalBank/go-sdb/p2p"
-	bzzswap "github.com/SocialDigitalBank/go-sdb/swarm/services/swap"
-	"github.com/SocialDigitalBank/go-sdb/swarm/services/swap/swap"
-	"github.com/SocialDigitalBank/go-sdb/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/contracts/chequebook"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	bzzswap "github.com/PeteWorkspace/go-nex/swarm/services/swap"
+	"github.com/PeteWorkspace/go-nex/swarm/services/swap/swap"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 //metrics variables

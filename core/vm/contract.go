@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // ContractRef is a reference to the contract's backing object

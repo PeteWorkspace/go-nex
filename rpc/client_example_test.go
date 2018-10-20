@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/rpc"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

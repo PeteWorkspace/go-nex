@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/SocialDigitalBank/go-sdb/core"
-	"github.com/SocialDigitalBank/go-sdb/rlp"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

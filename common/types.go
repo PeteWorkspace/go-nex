@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/common/hexutil"
-	"github.com/SocialDigitalBank/go-sdb/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/common/math"
-	"github.com/SocialDigitalBank/go-sdb/core/vm"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 // Compiler contains information about the parsed source

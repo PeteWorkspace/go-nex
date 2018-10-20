@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/SocialDigitalBank/go-sdb/core"
-	"github.com/SocialDigitalBank/go-sdb/ethdb"
-	"github.com/SocialDigitalBank/go-sdb/light"
-	"github.com/SocialDigitalBank/go-sdb/log"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/light"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // LesOdr implements light.OdrBackend

@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/accounts/abi/bind"
-	"github.com/SocialDigitalBank/go-sdb/common/compiler"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/common/compiler"
 )
 
 var (

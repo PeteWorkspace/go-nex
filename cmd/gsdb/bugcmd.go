@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/internal/browser"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/cmd/internal/browser"
+	"github.com/PeteWorkspace/go-nex/params"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

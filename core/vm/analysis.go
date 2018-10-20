@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

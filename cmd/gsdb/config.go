@@ -27,12 +27,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/SocialDigitalBank/go-sdb/cmd/utils"
-	"github.com/SocialDigitalBank/go-sdb/dashboard"
-	"github.com/SocialDigitalBank/go-sdb/eth"
-	"github.com/SocialDigitalBank/go-sdb/node"
-	"github.com/SocialDigitalBank/go-sdb/params"
-	whisper "github.com/SocialDigitalBank/go-sdb/whisper/whisperv6"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/dashboard"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/params"
+	whisper "github.com/PeteWorkspace/go-nex/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

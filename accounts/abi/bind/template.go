@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/SocialDigitalBank/go-sdb/accounts/abi"
+import "github.com/PeteWorkspace/go-nex/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

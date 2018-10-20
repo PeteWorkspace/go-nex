@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/consensus/ethash"
-	"github.com/SocialDigitalBank/go-sdb/core"
-	"github.com/SocialDigitalBank/go-sdb/eth"
-	"github.com/SocialDigitalBank/go-sdb/internal/jsre"
-	"github.com/SocialDigitalBank/go-sdb/node"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/internal/jsre"
+	"github.com/PeteWorkspace/go-nex/node"
 )
 
 const (

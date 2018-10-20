@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SocialDigitalBank/go-sdb/common"
-	"github.com/SocialDigitalBank/go-sdb/crypto"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

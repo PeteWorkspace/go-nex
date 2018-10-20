@@ -31,7 +31,7 @@ CRCCheck on
 
 !define GROUPNAME "Ethereum"
 !define APPNAME "Gsdb"
-!define DESCRIPTION "Official Go implementation of the SocialDigitalBank protocol"
+!define DESCRIPTION "Official Go implementation of the PeteWorkspace protocol"
 !addplugindir .\
 
 # Require admin rights on NT6+ (When UAC is turned on)

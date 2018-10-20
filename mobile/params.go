@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/SocialDigitalBank/go-sdb/core"
-	"github.com/SocialDigitalBank/go-sdb/p2p/discv5"
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/p2p/discv5"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

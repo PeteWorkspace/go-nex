@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SocialDigitalBank/go-sdb/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 type (
