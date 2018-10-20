@@ -2,19 +2,19 @@
 # with Go source code. If you know what GOPATH is then you probably
 # don't need to bother with make.
 
-.PHONY: gsdb android ios gsdb-cross swarm evm all test clean
-.PHONY: gsdb-linux gsdb-linux-386 gsdb-linux-amd64 gsdb-linux-mips64 gsdb-linux-mips64le
-.PHONY: gsdb-linux-arm gsdb-linux-arm-5 gsdb-linux-arm-6 gsdb-linux-arm-7 gsdb-linux-arm64
-.PHONY: gsdb-darwin gsdb-darwin-386 gsdb-darwin-amd64
-.PHONY: gsdb-windows gsdb-windows-386 gsdb-windows-amd64
+.PHONY: gnex android ios gnex-cross swarm evm all test clean
+.PHONY: gnex-linux gnex-linux-386 gnex-linux-amd64 gnex-linux-mips64 gnex-linux-mips64le
+.PHONY: gnex-linux-arm gnex-linux-arm-5 gnex-linux-arm-6 gnex-linux-arm-7 gnex-linux-arm64
+.PHONY: gnex-darwin gnex-darwin-386 gnex-darwin-amd64
+.PHONY: gnex-windows gnex-windows-386 gnex-windows-amd64
 
 GOBIN = $(shell pwd)/build/bin
 GO ?= latest
 
-gsdb:
-	build/env.sh go run build/ci.go install ./cmd/gsdb
+gnex:
+	build/env.sh go run build/ci.go install ./cmd/gnex
 	@echo "Done building."
-	@echo "Run \"$(GOBIN)/gsdb\" to launch gsdb."
+	@echo "Run \"$(GOBIN)/gnex\" to launch gnex."
 
 swarm:
 	build/env.sh go run build/ci.go install ./cmd/swarm
@@ -27,12 +27,12 @@ all:
 android:
 	build/env.sh go run build/ci.go aar --local
 	@echo "Done building."
-	@echo "Import \"$(GOBIN)/gsdb.aar\" to use the library."
+	@echo "Import \"$(GOBIN)/gnex.aar\" to use the library."
 
 ios:
 	build/env.sh go run build/ci.go xcode --local
 	@echo "Done building."
-	@echo "Import \"$(GOBIN)/Gsdb.framework\" to use the library."
+	@echo "Import \"$(GOBIN)/gnex.framework\" to use the library."
 
 test: all
 	build/env.sh go run build/ci.go test
@@ -58,92 +58,92 @@ devtools:
 
 # Cross Compilation Targets (xgo)
 
-gsdb-cross: gsdb-linux gsdb-darwin gsdb-windows gsdb-android gsdb-ios
+gnex-cross: gnex-linux gnex-darwin gnex-windows gnex-android gnex-ios
 	@echo "Full cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-*
+	@ls -ld $(GOBIN)/gnex-*
 
-gsdb-linux: gsdb-linux-386 gsdb-linux-amd64 gsdb-linux-arm gsdb-linux-mips64 gsdb-linux-mips64le
+gnex-linux: gnex-linux-386 gnex-linux-amd64 gnex-linux-arm gnex-linux-mips64 gnex-linux-mips64le
 	@echo "Linux cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-*
+	@ls -ld $(GOBIN)/gnex-linux-*
 
-gsdb-linux-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/386 -v ./cmd/gsdb
+gnex-linux-386:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/386 -v ./cmd/gnex
 	@echo "Linux 386 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep 386
+	@ls -ld $(GOBIN)/gnex-linux-* | grep 386
 
-gsdb-linux-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/amd64 -v ./cmd/gsdb
+gnex-linux-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/amd64 -v ./cmd/gnex
 	@echo "Linux amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep amd64
+	@ls -ld $(GOBIN)/gnex-linux-* | grep amd64
 
-gsdb-linux-arm: gsdb-linux-arm-5 gsdb-linux-arm-6 gsdb-linux-arm-7 gsdb-linux-arm64
+gnex-linux-arm: gnex-linux-arm-5 gnex-linux-arm-6 gnex-linux-arm-7 gnex-linux-arm64
 	@echo "Linux ARM cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep arm
+	@ls -ld $(GOBIN)/gnex-linux-* | grep arm
 
-gsdb-linux-arm-5:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-5 -v ./cmd/gsdb
+gnex-linux-arm-5:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-5 -v ./cmd/gnex
 	@echo "Linux ARMv5 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep arm-5
+	@ls -ld $(GOBIN)/gnex-linux-* | grep arm-5
 
-gsdb-linux-arm-6:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-6 -v ./cmd/gsdb
+gnex-linux-arm-6:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-6 -v ./cmd/gnex
 	@echo "Linux ARMv6 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep arm-6
+	@ls -ld $(GOBIN)/gnex-linux-* | grep arm-6
 
-gsdb-linux-arm-7:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-7 -v ./cmd/gsdb
+gnex-linux-arm-7:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-7 -v ./cmd/gnex
 	@echo "Linux ARMv7 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep arm-7
+	@ls -ld $(GOBIN)/gnex-linux-* | grep arm-7
 
-gsdb-linux-arm64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm64 -v ./cmd/gsdb
+gnex-linux-arm64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm64 -v ./cmd/gnex
 	@echo "Linux ARM64 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep arm64
+	@ls -ld $(GOBIN)/gnex-linux-* | grep arm64
 
-gsdb-linux-mips:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips --ldflags '-extldflags "-static"' -v ./cmd/gsdb
+gnex-linux-mips:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips --ldflags '-extldflags "-static"' -v ./cmd/gnex
 	@echo "Linux MIPS cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep mips
+	@ls -ld $(GOBIN)/gnex-linux-* | grep mips
 
-gsdb-linux-mipsle:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mipsle --ldflags '-extldflags "-static"' -v ./cmd/gsdb
+gnex-linux-mipsle:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mipsle --ldflags '-extldflags "-static"' -v ./cmd/gnex
 	@echo "Linux MIPSle cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep mipsle
+	@ls -ld $(GOBIN)/gnex-linux-* | grep mipsle
 
-gsdb-linux-mips64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64 --ldflags '-extldflags "-static"' -v ./cmd/gsdb
+gnex-linux-mips64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64 --ldflags '-extldflags "-static"' -v ./cmd/gnex
 	@echo "Linux MIPS64 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep mips64
+	@ls -ld $(GOBIN)/gnex-linux-* | grep mips64
 
-gsdb-linux-mips64le:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64le --ldflags '-extldflags "-static"' -v ./cmd/gsdb
+gnex-linux-mips64le:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64le --ldflags '-extldflags "-static"' -v ./cmd/gnex
 	@echo "Linux MIPS64le cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-linux-* | grep mips64le
+	@ls -ld $(GOBIN)/gnex-linux-* | grep mips64le
 
-gsdb-darwin: gsdb-darwin-386 gsdb-darwin-amd64
+gnex-darwin: gnex-darwin-386 gnex-darwin-amd64
 	@echo "Darwin cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-darwin-*
+	@ls -ld $(GOBIN)/gnex-darwin-*
 
-gsdb-darwin-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/386 -v ./cmd/gsdb
+gnex-darwin-386:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/386 -v ./cmd/gnex
 	@echo "Darwin 386 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-darwin-* | grep 386
+	@ls -ld $(GOBIN)/gnex-darwin-* | grep 386
 
-gsdb-darwin-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/gsdb
+gnex-darwin-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/gnex
 	@echo "Darwin amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-darwin-* | grep amd64
+	@ls -ld $(GOBIN)/gnex-darwin-* | grep amd64
 
-gsdb-windows: gsdb-windows-386 gsdb-windows-amd64
+gnex-windows: gnex-windows-386 gnex-windows-amd64
 	@echo "Windows cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-windows-*
+	@ls -ld $(GOBIN)/gnex-windows-*
 
-gsdb-windows-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/386 -v ./cmd/gsdb
+gnex-windows-386:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/386 -v ./cmd/gnex
 	@echo "Windows 386 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-windows-* | grep 386
+	@ls -ld $(GOBIN)/gnex-windows-* | grep 386
 
-gsdb-windows-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/gsdb
+gnex-windows-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/gnex
 	@echo "Windows amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/gsdb-windows-* | grep amd64
+	@ls -ld $(GOBIN)/gnex-windows-* | grep amd64
