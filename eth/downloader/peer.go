@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 const (

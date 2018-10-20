@@ -36,7 +36,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // ErrNotFound indicates that the chunk is not found.

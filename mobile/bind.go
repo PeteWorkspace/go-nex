@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/SECoin/go-sec/accounts/abi"
-	"github.com/SECoin/go-sec/accounts/abi/bind"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

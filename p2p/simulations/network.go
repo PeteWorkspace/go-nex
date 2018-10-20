@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

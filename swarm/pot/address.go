@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 var (

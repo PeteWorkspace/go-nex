@@ -25,16 +25,16 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/core/rawdb"
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/params"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/core/rawdb"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

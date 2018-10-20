@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto/sha3"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 type hasher struct {

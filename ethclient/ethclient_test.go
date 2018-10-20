@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/SECoin/go-sec"
+import "github.com/PeteWorkspace/go-nex"
 
 // Verify that Client implements the ethereum interfaces.
 var (

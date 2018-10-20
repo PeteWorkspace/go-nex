@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // Forks table defines supported forks and their chain config.

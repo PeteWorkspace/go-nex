@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 type (

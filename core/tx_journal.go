@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

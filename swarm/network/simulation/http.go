@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/p2p/simulations"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations"
 )
 
 // Package defaults.

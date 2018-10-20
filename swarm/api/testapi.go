@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/SECoin/go-sec/swarm/network"
+	"github.com/PeteWorkspace/go-nex/swarm/network"
 )
 
 type Control struct {

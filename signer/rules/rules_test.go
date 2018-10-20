@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/internal/ethapi"
-	"github.com/SECoin/go-sec/signer/core"
-	"github.com/SECoin/go-sec/signer/storage"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/signer/core"
+	"github.com/PeteWorkspace/go-nex/signer/storage"
 )
 
 const JS = `

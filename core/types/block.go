@@ -26,10 +26,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/crypto/sha3"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 var (

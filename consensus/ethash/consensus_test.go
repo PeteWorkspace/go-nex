@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 type diffTest struct {

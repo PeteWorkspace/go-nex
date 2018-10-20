@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

@@ -27,16 +27,16 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/rawdb"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/internal/debug"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/node"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/rawdb"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/internal/debug"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 const (

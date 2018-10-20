@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common/mclock"
-	"github.com/SECoin/go-sec/light"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
+	"github.com/PeteWorkspace/go-nex/light"
 )
 
 var (

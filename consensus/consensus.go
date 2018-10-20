@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/params"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

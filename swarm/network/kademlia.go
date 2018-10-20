@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/pot"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/pot"
 )
 
 /*

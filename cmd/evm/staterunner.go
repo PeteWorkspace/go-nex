@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/vm"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/tests"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

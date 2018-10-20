@@ -38,12 +38,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/swarm/spancontext"
-	"github.com/SECoin/go-sec/swarm/tracing"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/swarm/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SECoin/go-sec/crypto/sha3"
-	"github.com/SECoin/go-sec/swarm/chunk"
-	"github.com/SECoin/go-sec/swarm/storage/encryption"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/swarm/storage/encryption"
 )
 
 type chunkEncryption struct {

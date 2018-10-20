@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SECoin/go-sec/swarm/pot"
+	"github.com/PeteWorkspace/go-nex/swarm/pot"
 )
 
 // discovery bzz extension for requesting and relaying node address records

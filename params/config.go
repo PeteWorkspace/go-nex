@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // Genesis hashes to enforce below configs on.

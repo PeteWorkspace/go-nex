@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/rpc"
-	"github.com/SECoin/go-sec/swarm/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/rpc"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
 )
 
 const (

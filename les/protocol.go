@@ -26,12 +26,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/rawdb"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/crypto/secp256k1"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/rawdb"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/secp256k1"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // Constants to match up protocol versions and messages

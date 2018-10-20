@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

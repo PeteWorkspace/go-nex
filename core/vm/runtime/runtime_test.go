@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SECoin/go-sec/accounts/abi"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/vm"
-	"github.com/SECoin/go-sec/ethdb"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

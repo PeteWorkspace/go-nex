@@ -22,10 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

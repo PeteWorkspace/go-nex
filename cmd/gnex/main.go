@@ -29,16 +29,16 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/accounts/keystore"
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/console"
-	"github.com/SECoin/go-sec/eth"
-	"github.com/SECoin/go-sec/ethclient"
-	"github.com/SECoin/go-sec/internal/debug"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/node"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/console"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/ethclient"
+	"github.com/PeteWorkspace/go-nex/internal/debug"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/node"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -167,7 +167,7 @@ func init() {
 	// Initialize the CLI app and start Geth
 	app.Action = geth
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2013-2018 The go-ethereum / go-sec Authors"
+	app.Copyright = "Copyright 2013-2018 The go-ethereum / go-nex Authors"
 	app.Commands = []cli.Command{
 		// See chaincmd.go:
 		initCommand,

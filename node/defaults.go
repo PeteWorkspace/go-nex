@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/nat"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/nat"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 const (

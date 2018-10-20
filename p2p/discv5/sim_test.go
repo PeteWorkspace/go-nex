@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

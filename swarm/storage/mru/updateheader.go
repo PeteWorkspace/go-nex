@@ -17,7 +17,7 @@
 package mru
 
 import (
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 // updateHeader models the non-payload components of a Resource Update

@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/internal/ethapi"
-	"github.com/SECoin/go-sec/params"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.GWei)

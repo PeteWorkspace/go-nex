@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/core/vm"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

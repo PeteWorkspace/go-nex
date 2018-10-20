@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/internal/ethapi"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/signer/core"
-	"github.com/SECoin/go-sec/signer/rules/deps"
-	"github.com/SECoin/go-sec/signer/storage"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/signer/core"
+	"github.com/PeteWorkspace/go-nex/signer/rules/deps"
+	"github.com/PeteWorkspace/go-nex/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

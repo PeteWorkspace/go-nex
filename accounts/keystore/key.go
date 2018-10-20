@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
 	"github.com/pborman/uuid"
 )
 

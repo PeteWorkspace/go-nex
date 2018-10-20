@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/core/vm"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 // Compiler contains information about the parsed source

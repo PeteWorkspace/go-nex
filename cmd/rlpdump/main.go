@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 var (

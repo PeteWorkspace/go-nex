@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 type dummyContractRef struct {

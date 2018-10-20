@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/SECoin/go-sec/accounts/abi"
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/common"
 
 	"bytes"
 	"os"

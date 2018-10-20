@@ -20,7 +20,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 	colorable "github.com/mattn/go-colorable"
 
 	cli "gopkg.in/urfave/cli.v1"

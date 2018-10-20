@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // Msg defines the structure of a p2p message.

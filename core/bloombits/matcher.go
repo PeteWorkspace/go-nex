@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SECoin/go-sec/common/bitutil"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/common/bitutil"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

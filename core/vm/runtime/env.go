@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/vm"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

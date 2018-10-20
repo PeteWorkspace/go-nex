@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SECoin/go-sec/accounts/keystore"
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/crypto"
 	"github.com/pborman/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

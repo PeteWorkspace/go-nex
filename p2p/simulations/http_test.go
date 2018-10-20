@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/node"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

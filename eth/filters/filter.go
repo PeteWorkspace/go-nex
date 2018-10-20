@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/bloombits"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/bloombits"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 type Backend interface {

@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

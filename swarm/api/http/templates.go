@@ -22,7 +22,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/SECoin/go-sec/swarm/api"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
 )
 
 type htmlListData struct {

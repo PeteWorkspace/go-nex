@@ -17,10 +17,10 @@
 package rawdb
 
 import (
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // ReadTxLookupEntry retrieves the positional metadata associated with a transaction

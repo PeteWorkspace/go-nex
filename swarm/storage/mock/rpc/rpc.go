@@ -26,10 +26,10 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/rpc"
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/storage/mock"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/rpc"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/storage/mock"
 )
 
 // GlobalStore is rpc.Client that connects to a centralized mock store.

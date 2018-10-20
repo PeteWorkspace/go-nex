@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/swarm/api"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
 )
 
 const (

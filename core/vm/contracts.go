@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/crypto/bn256"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/bn256"
+	"github.com/PeteWorkspace/go-nex/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

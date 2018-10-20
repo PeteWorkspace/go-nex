@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
 )
 
 // TestNetworkSimulation creates a multi-node simulation network with each node

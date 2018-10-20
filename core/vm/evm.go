@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

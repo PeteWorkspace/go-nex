@@ -18,7 +18,7 @@ package mru
 import (
 	"testing"
 
-	"github.com/SECoin/go-sec/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
 )
 
 func compareByteSliceToExpectedHex(t *testing.T, variableName string, actualValue []byte, expectedHex string) {

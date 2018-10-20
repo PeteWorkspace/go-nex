@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/rpc"
-	"github.com/SECoin/go-sec/swarm"
-	"github.com/SECoin/go-sec/swarm/api"
+	"github.com/PeteWorkspace/go-nex/rpc"
+	"github.com/PeteWorkspace/go-nex/swarm"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

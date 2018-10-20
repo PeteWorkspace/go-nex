@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/vm"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

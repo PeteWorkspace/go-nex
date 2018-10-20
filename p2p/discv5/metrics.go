@@ -1,6 +1,6 @@
 package discv5
 
-import "github.com/SECoin/go-sec/metrics"
+import "github.com/PeteWorkspace/go-nex/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discv5/InboundTraffic", nil)

@@ -20,13 +20,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/bitutil"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/bloombits"
-	"github.com/SECoin/go-sec/core/rawdb"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/bitutil"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/bloombits"
+	"github.com/PeteWorkspace/go-nex/core/rawdb"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 const (

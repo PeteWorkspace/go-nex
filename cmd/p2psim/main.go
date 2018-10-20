@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/simulations"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

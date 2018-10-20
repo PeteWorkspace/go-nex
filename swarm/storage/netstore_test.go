@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/swarm/network"
+	"github.com/PeteWorkspace/go-nex/swarm/network"
 )
 
 var (

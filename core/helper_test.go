@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/event"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 // Implement our EthTest Manager

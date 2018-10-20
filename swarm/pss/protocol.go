@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/protocols"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/swarm/log"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/protocols"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
 )
 
 const (

@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

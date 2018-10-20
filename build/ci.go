@@ -58,9 +58,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SECoin/go-sec/internal/build"
-	"github.com/SECoin/go-sec/params"
-	sv "github.com/SECoin/go-sec/swarm/version"
+	"github.com/PeteWorkspace/go-nex/internal/build"
+	"github.com/PeteWorkspace/go-nex/params"
+	sv "github.com/PeteWorkspace/go-nex/swarm/version"
 )
 
 var (

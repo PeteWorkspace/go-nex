@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/swarm/chunk"
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
 )

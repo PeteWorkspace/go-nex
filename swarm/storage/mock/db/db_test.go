@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm/storage/mock/test"
+	"github.com/PeteWorkspace/go-nex/swarm/storage/mock/test"
 )
 
 // TestDBStore is running a test.MockStore tests

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 type AddrLocker struct {

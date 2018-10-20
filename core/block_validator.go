@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/consensus"
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common/mclock"
-	"github.com/SECoin/go-sec/ethdb"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 func TestFreeClientPoolL10C100(t *testing.T) {

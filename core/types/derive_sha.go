@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/trie"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/trie"
 )
 
 type DerivableList interface {

@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/SECoin/go-sec/core/vm"
+	"github.com/PeteWorkspace/go-nex/core/vm"
 )
 
 func TestVM(t *testing.T) {

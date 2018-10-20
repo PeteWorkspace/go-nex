@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/SECoin/go-sec/core/types"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 var (

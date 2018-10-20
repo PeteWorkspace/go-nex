@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/consensus/ethash"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/eth/downloader"
-	"github.com/SECoin/go-sec/eth/gasprice"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/eth/downloader"
+	"github.com/PeteWorkspace/go-nex/eth/gasprice"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

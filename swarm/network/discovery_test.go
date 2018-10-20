@@ -19,7 +19,7 @@ package network
 import (
 	"testing"
 
-	p2ptest "github.com/SECoin/go-sec/p2p/testing"
+	p2ptest "github.com/PeteWorkspace/go-nex/p2p/testing"
 )
 
 /***

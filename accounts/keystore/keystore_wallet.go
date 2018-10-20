@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/SECoin/go-sec"
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/core/types"
+	ethereum "github.com/PeteWorkspace/go-nex"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

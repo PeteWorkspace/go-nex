@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 	"github.com/pborman/uuid"
 
 	cli "gopkg.in/urfave/cli.v1"

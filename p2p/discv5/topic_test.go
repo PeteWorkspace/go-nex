@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/mclock"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

@@ -27,8 +27,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/swarm/storage/mock"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/swarm/storage/mock"
 )
 
 // GlobalStore contains the LevelDB database that is storing

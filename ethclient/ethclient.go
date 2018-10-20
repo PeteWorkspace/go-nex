@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SECoin/go-sec"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

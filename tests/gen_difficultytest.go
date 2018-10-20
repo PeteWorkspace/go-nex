@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/math"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/math"
 )
 
 var _ = (*difficultyTestMarshaling)(nil)

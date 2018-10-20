@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/SECoin/go-sec/crypto"
+	ethcrypto "github.com/PeteWorkspace/go-nex/crypto"
 )
 
 var (

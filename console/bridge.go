@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SECoin/go-sec/accounts/usbwallet"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/accounts/usbwallet"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"github.com/robertkrimen/otto"
 )
 

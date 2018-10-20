@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/p2p"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p"
 )
 
 var (

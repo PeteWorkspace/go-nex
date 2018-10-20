@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 // Tests that positional lookup metadata can be stored and retrieved.

@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 var (

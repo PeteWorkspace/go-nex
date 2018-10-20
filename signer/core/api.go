@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/accounts/keystore"
-	"github.com/SECoin/go-sec/accounts/usbwallet"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/internal/ethapi"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/accounts/usbwallet"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/internal/ethapi"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // ExternalAPI defines the external API through which signing requests are made.

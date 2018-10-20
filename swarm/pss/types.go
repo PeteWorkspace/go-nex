@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/swarm/storage"
-	whisper "github.com/SECoin/go-sec/whisper/whisperv5"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
+	whisper "github.com/PeteWorkspace/go-nex/whisper/whisperv5"
 )
 
 const (

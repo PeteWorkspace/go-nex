@@ -22,7 +22,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"

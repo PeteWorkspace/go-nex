@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/eth"
-	"github.com/SECoin/go-sec/les/flowcontrol"
-	"github.com/SECoin/go-sec/light"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/les/flowcontrol"
+	"github.com/PeteWorkspace/go-nex/light"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 var (

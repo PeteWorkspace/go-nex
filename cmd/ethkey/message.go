@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/SECoin/go-sec/accounts/keystore"
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/node"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
 )
 
 func TestSimulationWithHTTPServer(t *testing.T) {

@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

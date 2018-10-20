@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

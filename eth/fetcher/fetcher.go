@@ -22,11 +22,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/prque"
-	"github.com/SECoin/go-sec/consensus"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/prque"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 const (

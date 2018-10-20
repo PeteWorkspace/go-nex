@@ -17,9 +17,9 @@
 package simulation
 
 import (
-	"github.com/SECoin/go-sec/node"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
 )
 
 // Service returns a single Service by name on a particular node

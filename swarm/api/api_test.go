@@ -27,11 +27,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/swarm/sctx"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/swarm/sctx"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 func init() {

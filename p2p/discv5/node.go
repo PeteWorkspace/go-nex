@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 // Node represents a host on the network.

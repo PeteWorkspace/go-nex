@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 var (

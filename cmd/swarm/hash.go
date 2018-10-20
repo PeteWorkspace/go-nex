@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

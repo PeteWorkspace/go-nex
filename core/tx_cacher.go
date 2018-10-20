@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/SECoin/go-sec/core/types"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer anc cacher.

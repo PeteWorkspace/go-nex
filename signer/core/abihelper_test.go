@@ -25,8 +25,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/SECoin/go-sec/accounts/abi"
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

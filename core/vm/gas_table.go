@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm/state"
+	"github.com/PeteWorkspace/go-nex/swarm/state"
 )
 
 // TestDBStore tests basic functionality of DBStore.

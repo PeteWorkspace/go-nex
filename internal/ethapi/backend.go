@@ -21,17 +21,17 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/state"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/core/vm"
-	"github.com/SECoin/go-sec/eth/downloader"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/params"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/state"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/eth/downloader"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // Backend interface provides the common API services (that are provided by

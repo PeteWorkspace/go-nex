@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 func TestParseURI(t *testing.T) {

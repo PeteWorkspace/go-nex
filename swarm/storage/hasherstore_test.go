@@ -21,9 +21,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm/storage/encryption"
+	"github.com/PeteWorkspace/go-nex/swarm/storage/encryption"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 func TestHasherStore(t *testing.T) {

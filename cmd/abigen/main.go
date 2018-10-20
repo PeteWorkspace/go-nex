@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SECoin/go-sec/accounts/abi/bind"
-	"github.com/SECoin/go-sec/common/compiler"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/common/compiler"
 )
 
 var (

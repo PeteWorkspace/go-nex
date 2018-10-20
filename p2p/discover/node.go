@@ -31,9 +31,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/crypto/secp256k1"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

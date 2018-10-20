@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/accounts/keystore"
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/console"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/console"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

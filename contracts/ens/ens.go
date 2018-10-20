@@ -23,11 +23,11 @@ package ens
 import (
 	"strings"
 
-	"github.com/SECoin/go-sec/accounts/abi/bind"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/contracts/ens/contract"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/contracts/ens/contract"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 var (

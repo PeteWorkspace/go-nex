@@ -19,7 +19,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/SECoin/go-sec/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
 )
 
 // PutChunks adds chunks  to localstore

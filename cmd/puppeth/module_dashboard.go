@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // dashboardContent is the actual dashboard HTML content to serve up when users

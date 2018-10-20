@@ -26,14 +26,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/mclock"
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/discv5"
-	"github.com/SECoin/go-sec/p2p/nat"
-	"github.com/SECoin/go-sec/p2p/netutil"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discv5"
+	"github.com/PeteWorkspace/go-nex/p2p/nat"
+	"github.com/PeteWorkspace/go-nex/p2p/netutil"
 )
 
 const (

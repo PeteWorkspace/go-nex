@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/rlp"
-	whisper "github.com/SECoin/go-sec/whisper/whisperv6"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	whisper "github.com/PeteWorkspace/go-nex/whisper/whisperv6"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

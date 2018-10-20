@@ -6,11 +6,11 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/swarm/api"
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/sctx"
-	"github.com/SECoin/go-sec/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/sctx"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
 	"github.com/pborman/uuid"
 )
 

@@ -19,7 +19,7 @@ package simulation
 import (
 	"strings"
 
-	"github.com/SECoin/go-sec/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 // ConnectToPivotNode connects the node with provided NodeID

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/log"
 	"github.com/olekukonko/tablewriter"
 )
 

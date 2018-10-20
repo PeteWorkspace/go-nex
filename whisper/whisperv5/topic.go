@@ -19,8 +19,8 @@
 package whisperv5
 
 import (
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

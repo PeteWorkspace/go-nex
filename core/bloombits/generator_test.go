@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/SECoin/go-sec/core/types"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

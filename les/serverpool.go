@@ -27,13 +27,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common/mclock"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/discv5"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discv5"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 const (

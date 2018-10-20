@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/accounts/abi/bind"
-	"github.com/SECoin/go-sec/accounts/abi/bind/backends"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/contracts/chequebook/contract"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind/backends"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/contracts/chequebook/contract"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 var (

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/prque"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/prque"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 var (

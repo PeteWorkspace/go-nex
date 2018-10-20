@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/SECoin/go-sec/accounts/abi"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 // makeTopics converts a filter query argument list into a filter topic set.

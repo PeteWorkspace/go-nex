@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 	"github.com/jackpal/go-nat-pmp"
 )
 

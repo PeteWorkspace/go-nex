@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/ethdb"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/ethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

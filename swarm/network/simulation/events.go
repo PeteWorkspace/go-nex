@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/SECoin/go-sec/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 
-	"github.com/SECoin/go-sec/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p"
 )
 
 // PeerEvent is the type of the channel returned by Simulation.PeerEvents.

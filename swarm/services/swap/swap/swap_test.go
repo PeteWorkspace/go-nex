@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 type testInPayment struct {

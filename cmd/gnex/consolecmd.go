@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/console"
-	"github.com/SECoin/go-sec/node"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/console"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

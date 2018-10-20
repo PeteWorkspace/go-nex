@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/swarm/chunk"
 )
 
 var (

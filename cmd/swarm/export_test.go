@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm"
+	"github.com/PeteWorkspace/go-nex/swarm"
 )
 
 // TestCLISwarmExportImport perform the following test:

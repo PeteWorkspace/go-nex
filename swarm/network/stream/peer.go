@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/p2p/protocols"
-	"github.com/SECoin/go-sec/swarm/log"
-	pq "github.com/SECoin/go-sec/swarm/network/priorityqueue"
-	"github.com/SECoin/go-sec/swarm/network/stream/intervals"
-	"github.com/SECoin/go-sec/swarm/spancontext"
-	"github.com/SECoin/go-sec/swarm/state"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p/protocols"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	pq "github.com/PeteWorkspace/go-nex/swarm/network/priorityqueue"
+	"github.com/PeteWorkspace/go-nex/swarm/network/stream/intervals"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/swarm/state"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

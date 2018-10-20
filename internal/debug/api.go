@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // Handler is the global debugging handler.

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

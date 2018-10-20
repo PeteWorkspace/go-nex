@@ -29,13 +29,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/node"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/SECoin/go-sec/swarm/api"
+	bzzapi "github.com/PeteWorkspace/go-nex/swarm/api"
 )
 
 var (

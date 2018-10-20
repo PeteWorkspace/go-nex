@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/SECoin/go-sec/common/bitutil"
-	"github.com/SECoin/go-sec/light"
+	"github.com/PeteWorkspace/go-nex/common/bitutil"
+	"github.com/PeteWorkspace/go-nex/light"
 )
 
 const (

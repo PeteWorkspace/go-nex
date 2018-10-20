@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

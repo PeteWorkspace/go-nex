@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/internal/debug"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -26,7 +26,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/SECoin/go-sec/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
 )
 
 /*

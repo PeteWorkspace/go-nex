@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/common/mclock"
+	"github.com/PeteWorkspace/go-nex/common/mclock"
 )
 
 const fcTimeConst = time.Millisecond

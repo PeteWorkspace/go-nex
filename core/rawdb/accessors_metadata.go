@@ -19,10 +19,10 @@ package rawdb
 import (
 	"encoding/json"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/params"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

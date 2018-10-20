@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/core/vm"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/tests"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

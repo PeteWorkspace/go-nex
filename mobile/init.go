@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 func init() {

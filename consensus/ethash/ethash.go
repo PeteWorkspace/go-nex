@@ -34,12 +34,12 @@ import (
 	"unsafe"
 
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/consensus"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

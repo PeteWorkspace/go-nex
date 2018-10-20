@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

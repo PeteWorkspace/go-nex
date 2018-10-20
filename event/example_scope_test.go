@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SECoin/go-sec/event"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

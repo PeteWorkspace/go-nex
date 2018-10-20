@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 type TestPeer interface {

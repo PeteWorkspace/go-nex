@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/rpc"
-	"github.com/SECoin/go-sec/swarm/api"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/rpc"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
 )
 
 // TestNewSwarm validates Swarm fields in repsect to the provided configuration.

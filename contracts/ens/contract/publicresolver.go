@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/SECoin/go-sec"
-	"github.com/SECoin/go-sec/accounts/abi"
-	"github.com/SECoin/go-sec/accounts/abi/bind"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/event"
+	ethereum "github.com/PeteWorkspace/go-nex"
+	"github.com/PeteWorkspace/go-nex/accounts/abi"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 // PublicResolverABI is the input ABI used to generate the binding from.

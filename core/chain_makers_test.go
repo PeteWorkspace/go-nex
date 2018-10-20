@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/SECoin/go-sec/consensus/ethash"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/core/vm"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/core/vm"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 func ExampleGenerateChain() {

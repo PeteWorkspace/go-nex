@@ -21,14 +21,14 @@ import (
 	"errors"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/p2p/discover"
-	cp "github.com/SECoin/go-sec/swarm/chunk"
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/network"
-	"github.com/SECoin/go-sec/swarm/spancontext"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	cp "github.com/PeteWorkspace/go-nex/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/network"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

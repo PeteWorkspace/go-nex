@@ -34,11 +34,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/rlp"
-	"github.com/SECoin/go-sec/swarm/chunk"
-	"github.com/SECoin/go-sec/swarm/log"
-	"github.com/SECoin/go-sec/swarm/storage/mock"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/rlp"
+	"github.com/PeteWorkspace/go-nex/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/storage/mock"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 )

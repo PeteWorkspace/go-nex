@@ -27,10 +27,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto/sha3"
-	"github.com/SECoin/go-sec/swarm/bmt"
-	"github.com/SECoin/go-sec/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/swarm/bmt"
+	"github.com/PeteWorkspace/go-nex/swarm/chunk"
 )
 
 const MaxPO = 16

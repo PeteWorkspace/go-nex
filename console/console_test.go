@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/consensus/ethash"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/eth"
-	"github.com/SECoin/go-sec/internal/jsre"
-	"github.com/SECoin/go-sec/node"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/internal/jsre"
+	"github.com/PeteWorkspace/go-nex/node"
 )
 
 const (

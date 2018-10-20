@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/log"
 	"github.com/karalabe/hid"
 )
 

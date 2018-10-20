@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
-	whisper "github.com/SECoin/go-sec/whisper/whisperv6"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	whisper "github.com/PeteWorkspace/go-nex/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

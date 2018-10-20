@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/SECoin/go-sec/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 var (

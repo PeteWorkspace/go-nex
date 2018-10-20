@@ -35,11 +35,11 @@ import (
 	"io"
 
 	"github.com/elastic/gosigar"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/params"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/params"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"github.com/mohae/deepcopy"
 	"golang.org/x/net/websocket"
 )

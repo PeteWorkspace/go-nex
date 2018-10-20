@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/SECoin/go-sec/event"
+	"github.com/PeteWorkspace/go-nex/event"
 )
 
 func ExampleNewSubscription() {

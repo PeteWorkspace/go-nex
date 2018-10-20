@@ -17,7 +17,7 @@
 package simulation
 
 import (
-	"github.com/SECoin/go-sec/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 // BucketKey is the type that should be used for keys in simulation buckets.

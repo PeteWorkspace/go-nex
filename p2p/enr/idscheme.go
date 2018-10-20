@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/crypto/sha3"
-	"github.com/SECoin/go-sec/rlp"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/rlp"
 )
 
 // Registry of known identity schemes.

@@ -1,8 +1,8 @@
 package log
 
 import (
-	l "github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/metrics"
+	l "github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 const (

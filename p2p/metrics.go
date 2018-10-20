@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/SECoin/go-sec/metrics"
+	"github.com/PeteWorkspace/go-nex/metrics"
 )
 
 var (

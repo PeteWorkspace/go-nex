@@ -23,9 +23,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/swarm/api"
-	"github.com/SECoin/go-sec/swarm/api/client"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
+	"github.com/PeteWorkspace/go-nex/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

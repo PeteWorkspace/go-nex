@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/eth/downloader"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/eth/downloader"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

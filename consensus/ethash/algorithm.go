@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/bitutil"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/crypto/sha3"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/bitutil"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 const (

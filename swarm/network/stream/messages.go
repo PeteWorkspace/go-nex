@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SECoin/go-sec/metrics"
-	"github.com/SECoin/go-sec/swarm/log"
-	bv "github.com/SECoin/go-sec/swarm/network/bitvector"
-	"github.com/SECoin/go-sec/swarm/spancontext"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/metrics"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
+	bv "github.com/PeteWorkspace/go-nex/swarm/network/bitvector"
+	"github.com/PeteWorkspace/go-nex/swarm/spancontext"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

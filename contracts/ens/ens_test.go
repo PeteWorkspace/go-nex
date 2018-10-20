@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/SECoin/go-sec/accounts/abi/bind"
-	"github.com/SECoin/go-sec/accounts/abi/bind/backends"
-	"github.com/SECoin/go-sec/contracts/ens/contract"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/crypto"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind"
+	"github.com/PeteWorkspace/go-nex/accounts/abi/bind/backends"
+	"github.com/PeteWorkspace/go-nex/contracts/ens/contract"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/crypto"
 )
 
 var (

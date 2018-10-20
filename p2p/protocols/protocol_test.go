@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/p2p/discover"
-	"github.com/SECoin/go-sec/p2p/simulations/adapters"
-	p2ptest "github.com/SECoin/go-sec/p2p/testing"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/p2p/discover"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/adapters"
+	p2ptest "github.com/PeteWorkspace/go-nex/p2p/testing"
 )
 
 // handshake message type

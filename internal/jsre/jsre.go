@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/internal/jsre/deps"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

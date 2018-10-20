@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
+	"github.com/PeteWorkspace/go-nex/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

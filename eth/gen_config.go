@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/consensus/ethash"
-	"github.com/SECoin/go-sec/core"
-	"github.com/SECoin/go-sec/eth/downloader"
-	"github.com/SECoin/go-sec/eth/gasprice"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/consensus/ethash"
+	"github.com/PeteWorkspace/go-nex/core"
+	"github.com/PeteWorkspace/go-nex/eth/downloader"
+	"github.com/PeteWorkspace/go-nex/eth/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

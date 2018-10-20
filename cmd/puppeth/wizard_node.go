@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SECoin/go-sec/accounts/keystore"
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/accounts/keystore"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

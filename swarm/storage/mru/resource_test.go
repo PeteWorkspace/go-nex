@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/contracts/ens"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/swarm/chunk"
-	"github.com/SECoin/go-sec/swarm/multihash"
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/contracts/ens"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/swarm/chunk"
+	"github.com/PeteWorkspace/go-nex/swarm/multihash"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 var (

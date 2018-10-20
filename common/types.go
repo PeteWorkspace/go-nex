@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/SECoin/go-sec/common/hexutil"
-	"github.com/SECoin/go-sec/crypto/sha3"
+	"github.com/PeteWorkspace/go-nex/common/hexutil"
+	"github.com/PeteWorkspace/go-nex/crypto/sha3"
 )
 
 // Lengths of hashes and addresses in bytes.

@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/SECoin/go-sec/accounts"
-	"github.com/SECoin/go-sec/ethdb"
-	"github.com/SECoin/go-sec/event"
-	"github.com/SECoin/go-sec/internal/debug"
-	"github.com/SECoin/go-sec/log"
-	"github.com/SECoin/go-sec/p2p"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/accounts"
+	"github.com/PeteWorkspace/go-nex/ethdb"
+	"github.com/PeteWorkspace/go-nex/event"
+	"github.com/PeteWorkspace/go-nex/internal/debug"
+	"github.com/PeteWorkspace/go-nex/log"
+	"github.com/PeteWorkspace/go-nex/p2p"
+	"github.com/PeteWorkspace/go-nex/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

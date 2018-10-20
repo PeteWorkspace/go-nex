@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

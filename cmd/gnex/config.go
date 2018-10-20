@@ -27,12 +27,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/dashboard"
-	"github.com/SECoin/go-sec/eth"
-	"github.com/SECoin/go-sec/node"
-	"github.com/SECoin/go-sec/params"
-	whisper "github.com/SECoin/go-sec/whisper/whisperv6"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/dashboard"
+	"github.com/PeteWorkspace/go-nex/eth"
+	"github.com/PeteWorkspace/go-nex/node"
+	"github.com/PeteWorkspace/go-nex/params"
+	whisper "github.com/PeteWorkspace/go-nex/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

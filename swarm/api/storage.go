@@ -20,7 +20,7 @@ import (
 	"context"
 	"path"
 
-	"github.com/SECoin/go-sec/swarm/storage"
+	"github.com/PeteWorkspace/go-nex/swarm/storage"
 )
 
 type Response struct {

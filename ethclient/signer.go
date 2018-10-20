@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/core/types"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

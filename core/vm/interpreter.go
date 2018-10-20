@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/params"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/params"
 )
 
 // Config are the configuration options for the Interpreter

@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/SECoin/go-sec/common/math"
-	"github.com/SECoin/go-sec/crypto/secp256k1"
+	"github.com/PeteWorkspace/go-nex/common/math"
+	"github.com/PeteWorkspace/go-nex/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

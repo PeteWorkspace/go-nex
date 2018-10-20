@@ -10,11 +10,11 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-secdir="$workspace/src/github.com/SECoin"
-if [ ! -L "$secdir/go-sec" ]; then
+secdir="$workspace/src/github.com/PeteWorkspace"
+if [ ! -L "$secdir/go-nex" ]; then
     mkdir -p "$secdir"
     cd "$secdir"
-    ln -s ../../../../../. go-sec
+    ln -s ../../../../../. go-nex
     cd "$root"
 fi
 
@@ -23,8 +23,8 @@ GOPATH="$workspace"
 export GOPATH
 
 # Run the command inside the workspace.
-cd "$secdir/go-sec"
-PWD="$secdir/go-sec"
+cd "$secdir/go-nex"
+PWD="$secdir/go-nex"
 
 # Launch the arguments with the configured environment.
 exec "$@"

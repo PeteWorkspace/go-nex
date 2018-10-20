@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/consensus"
-	"github.com/SECoin/go-sec/core/types"
-	"github.com/SECoin/go-sec/rpc"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/consensus"
+	"github.com/PeteWorkspace/go-nex/core/types"
+	"github.com/PeteWorkspace/go-nex/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/SECoin/go-sec/common"
-	"github.com/SECoin/go-sec/crypto"
-	"github.com/SECoin/go-sec/crypto/ecies"
-	"github.com/SECoin/go-sec/log"
+	"github.com/PeteWorkspace/go-nex/common"
+	"github.com/PeteWorkspace/go-nex/crypto"
+	"github.com/PeteWorkspace/go-nex/crypto/ecies"
+	"github.com/PeteWorkspace/go-nex/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped into an Envelope.

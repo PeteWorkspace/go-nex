@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SECoin/go-sec/p2p/simulations/pipes"
+	"github.com/PeteWorkspace/go-nex/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

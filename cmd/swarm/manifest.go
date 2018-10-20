@@ -22,9 +22,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SECoin/go-sec/cmd/utils"
-	"github.com/SECoin/go-sec/swarm/api"
-	swarm "github.com/SECoin/go-sec/swarm/api/client"
+	"github.com/PeteWorkspace/go-nex/cmd/utils"
+	"github.com/PeteWorkspace/go-nex/swarm/api"
+	swarm "github.com/PeteWorkspace/go-nex/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

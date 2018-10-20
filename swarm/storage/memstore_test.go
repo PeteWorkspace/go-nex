@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/SECoin/go-sec/swarm/log"
+	"github.com/PeteWorkspace/go-nex/swarm/log"
 )
 
 func newTestMemStore() *MemStore {
